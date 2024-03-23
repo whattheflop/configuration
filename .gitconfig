@@ -1,0 +1,26 @@
+[user]
+	name = whattheflop
+	email = 9314750+whattheflop@users.noreply.github.com
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
+[rerere]
+	enabled = true
+[status]
+	submoduleSummary = true
+[diff]
+	submodule = log
+	algorithm = histogram
+[submodule]
+	recurse = true
+[transfer]
+	fsckobjects = true
+[fetch]
+	fsckobjects = true
+[receive]
+	fsckObjects = true
+[url "git@github.com:"]
+	pushInsteadOf = "https://github.com/"
+[init]
+	defaultBranch = main

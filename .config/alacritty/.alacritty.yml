@@ -1,0 +1,108 @@
+window:
+  # Title includes both 'alacritty' and 'terminal'
+  title: Alacritty Terminal
+  opacity: 0.83
+
+  dimensions:
+    columns: 168  
+    lines: 42
+
+  padding:
+    x: 2
+    y: 0
+position:
+    x: 30
+    y: 10
+
+  # More terminal 4 me
+  # decorations: none
+colors:
+  primary:
+    background: '0x1f1f1f'
+    foreground: '0xe5e1d8'
+
+  # Normal colors
+  normal:
+    black:   '0x212c2a'
+    red:     '0xff9580'
+    green:   '0x8aff80'
+    yellow:  '0xffff80'
+    blue:    '0x9580ff'
+    magenta: '0xff80bf'
+    cyan:    '0x80ffea'
+    white:   '0xf8f8f2'
+    darkred: '0x80ffea'
+
+  # Bright colors
+  bright:
+    black:   '0x212c2a'
+    red:     '0xffaa99'
+    green:   '0xa2ff99'
+    yellow:  '0xffff99'
+    blue:    '0xaa99ff'
+    magenta: '0xff99cc'
+    cyan:    '0x99ffee'
+    white:   '0xffffff'
+    darkred: '0x80ffea'
+
+
+  # Custom colours for diff highlight
+
+      #  indexed_colors: [
+      #    { index: 52, color: "#552433"},
+      #    { index: 53, color: "#FC3506"},
+      #
+      #    { index: 65, color: "#273a33"},
+      #    { index: 66, color: "#E4E6DD"},
+      #
+      #    { index: 67, color: "#34613c"},
+      #    { index: 69, color: "#F9F5F8"},
+      #
+      #    { index: 70, color: "#336158"},
+      #    { index: 71, color: "#336158"},
+      #
+      #    { index: 72, color: "#50f080"},
+      #    { index: 73, color: "#06100A"},
+      #  ]
+
+
+font:
+  normal:
+   family: MesloLGS NF
+   style: Book
+  bold:
+   family: MesloLGS NF
+   style: Bold
+  italic:
+    family: MesloLGS NF
+    style: Oblique
+  bold_italic:
+    family: MesloLGS NF
+    style: Bold Oblique
+
+  #normal:
+  #  family: roboto mono
+  size: 12
+
+    #shell:
+  #  program: /usr/local/bin/tmux
+
+
+key_bindings:
+  - { key: T, mods: Shift|Control, chars: "\x06\x63"}  
+  - { key: W, mods: Shift|Control, chars: "\x06\x78"}  
+  - { key: H, mods: Shift|Control, chars: "\x06\x68"}  
+  - { key: J, mods: Shift|Control, chars: "\x06\x6a"}  
+  - { key: K, mods: Shift|Control, chars: "\x06\x6b"}  
+  - { key: L, mods: Shift|Control, chars: "\x06\x6c"}  
+  - { key: Tab, mods: Control, chars: "\x06\x6e"}  
+  - { key: Tab, mods: Shift|Control, chars: "\x06\x70"}  
+  - { key: Left, mods: Shift|Control, chars: "\x06\x48"}  
+  - { key: Right, mods: Shift|Control, chars: "\x06\x4c"}  
+  - { key: Down, mods: Shift|Control, chars: "\x06\x4a"}  
+  - { key: Up, mods: Shift|Control, chars: "\x06\x4b"}  
+  - { key: Left, mods: Control, chars: "\x1bb"}
+  - { key: Right, mods: Control, chars: "\x1bf"}
+  - { key: W, mods: Command, action: None}
+
+
